@@ -12,3 +12,51 @@
 	font-weight:400;
 	font-size:80px;
 }
+
+.slider-caption p {
+	font-family: .SFNSDisplay-Regular;
+	font-size: 55px;
+	color: #FFFFFF;
+	letter-spacing: -0.98px;
+}
+
+.slider-caption .h2-no-margin {
+	margin-bottom:0;
+}
+
+.slider-caption .p-font-size {
+	font-size:20px;
+	font-family: .SFNSDisplay-Regular;
+	color:#FFF;
+	letter-spacing:-0.39px;
+}
+
+.two-column-short {
+	display:flex;
+	flex-direction:row;
+}
+
+.two-column-short .text-left, .two-column-short .text-right {
+	width:50%;
+}
+.two-column-short .text-left {
+	text-align:right;
+	border-right: 1px solid #FFF;
+	padding-right:20px;
+}
+.two-column-short .text-right {
+	text-align:left;
+	padding-left:20px;
+}
+
+/* New Patient Hotline: */
+font-family: .SFNSDisplay-Regular;
+font-size: 24px;
+color: #FFFFFF;
+letter-spacing: -0.39px;
+
+/* Existing Patients of: */
+font-family: .SFNSDisplay-Regular;
+font-size: 20px;
+color: #FFFFFF;
+letter-spacing: -0.33px;
