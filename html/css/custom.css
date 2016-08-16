@@ -93,3 +93,69 @@
 #section-about {
 	background:#3E3E3E;
 }
+.content-wrap {
+	padding-top:0;
+}
+
+.section-three-text {
+	/* Stephanie iѕ origina: */
+	font-family: .AppleSystemUIFont;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom:5px;
+	letter-spacing: -0.32px;
+}
+.section-three-title {
+	/* Ross M. LeCavalier,: */
+	font-family: .SFNSDisplay-Regular;
+	font-size: 25px;
+	color: #C2D31E;
+	letter-spacing: -0.49px;
+	font-weight:400;
+}
+.section-three-h2 {
+	color:#FFF;
+	font-family: .SFNSDisplay-Regular;
+	font-size: 45px;
+	letter-spacing: -0.89px;
+	font-weight:400;
+}
+.split-row-line {
+	/* Line: */
+	border: 1px solid #7C7C7C;
+}
+/* Rectangle 4: */
+background: #3E3E3E;
+/* Rectangle 4: */
+background-image: linear-gradient(-180deg, #252525 0%, #3E3E3E 65%);
+/* Line Copy: */
+border: 5px solid #5C5B81;
+/* A native оf thе Chic: */
+font-family: .AppleSystemUIFont;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: -0.32px;
+/* Stephanie iѕ origina: */
+font-family: .AppleSystemUIFont;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: -0.32px;
+/* MEET THE TEAM: */
+font-family: .SFNSDisplay-Regular;
+font-size: 55px;
+color: #FFFFFF;
+letter-spacing: -0.89px;
+/* Ross M. LeCavalier,: */
+font-family: .SFNSDisplay-Regular;
+font-size: 30px;
+color: #C2D31E;
+letter-spacing: -0.49px;
+/* Stephanie: */
+font-family: .SFNSDisplay-Regular;
+font-size: 30px;
+color: #C2D31E;
+letter-spacing: -0.49px;
+/* Ross-LeCavalier_bio: */
+/* Line: */
+border: 1px solid #7C7C7C;
+/* stephanie: */
