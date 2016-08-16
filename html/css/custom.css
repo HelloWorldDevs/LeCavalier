@@ -58,8 +58,12 @@
 
 .phone-font-size {
 	font-size:18px;
-	margin-left:2px;
 }
+
+.margin-left-3 {
+	margin-left:3px;
+}
+
 .text-left .p-no-margin {
 	margin:0;
 	margin-bottom:-5px;
