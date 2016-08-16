@@ -31,6 +31,12 @@ body.stretched #header.full-header .container {
 	color: #FFFFFF;
 	letter-spacing: -0.98px;
 }
+.topmargin-30 {
+	margin-top:30px;
+}
+.bottommargin-30 {
+	margin-bottom:30px;
+}
 
 .slider-caption .h2-no-margin {
 	margin-bottom:0;
