@@ -38,7 +38,13 @@ h6  {
 .font-green {
 	color:#C2D31E
 }
+.font-green-2 {
+	color:#A0AF0F;
+}
 
+.btn-black:hover > .check-hover {
+	color:#333333;
+}
 .h2-font-less {
 	font-size:35px;
 }
@@ -308,7 +314,6 @@ body.stretched #header.full-header .container {
 	font-size: 38px;
 	color: #FFFFFF;
 	font-weight:400;
-	letter-spacing: -0.89px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
 }
 .section-six-span {
