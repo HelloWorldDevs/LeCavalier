@@ -105,6 +105,16 @@
 	margin-bottom:5px;
 	letter-spacing: -0.32px;
 }
+
+.section-four-title {
+	/* LIMITED TIME SUMMER: */
+	font-family: .SFNSDisplay-Regular;
+	font-size: 38px;
+	color: #7270BC;
+	letter-spacing: -0.89px;
+	font-weight:400;
+	margin-bottom:0px;
+}
 .section-three-title {
 	/* Ross M. LeCavalier,: */
 	font-family: .SFNSDisplay-Regular;
@@ -112,6 +122,16 @@
 	color: #C2D31E;
 	letter-spacing: -0.49px;
 	font-weight:400;
+}
+.section-four-span {
+	/* Offer Ends September: */
+	font-family: .SFNSDisplay-Regular;
+	font-size: 20px;
+	font-weight:300;
+	color: #7C7C7C;
+	letter-spacing: -0.46px;
+}
+.section-four-row {
 }
 .section-three-h2 {
 	color:#FFF;
@@ -123,6 +143,17 @@
 .split-row-line {
 	/* Line: */
 	border: 1px solid #7C7C7C;
+}
+
+.row .price-box {
+	/* Rectangle 5 Copy 2: */
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+	border-radius: 8px;
+}
+#section-work {
+
+	background: #F7F7F7;
 }
 /* Rectangle 4: */
 background: #3E3E3E;
