@@ -308,7 +308,7 @@ body.stretched #header.full-header .container {
 	border-radius:8px;
 }
 .box-left, .box-right {
-	height:248px;
+	height:220px;
 	padding:20px;
 }
 .box-left {
@@ -334,4 +334,16 @@ body.stretched #header.full-header .container {
 	border-bottom: 1px solid #7C7C7C;
 	height:40px;
 	margin-bottom:25px;
+}
+.box-left-bottom {
+	/* Easy Monthly Payment: */
+	font-family: .AppleSystemUIFont;
+	font-size: 13px;
+	color: #7C7C7C;
+	letter-spacing: -0px;
+	font-weight:300;
+	line-height: 43px;
+}
+.box-left-bottom p {
+	margin-bottom:20px;
 }
