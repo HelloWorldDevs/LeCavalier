@@ -6,11 +6,42 @@
 -----------------------------------------------------------------*/
 
 .slider-caption h2 {
-	font-family: .SFNSDisplay-Regular;
 	color: #FFFFFF;
-	letter-spacing: -1.29px;
-	font-weight:400;
+	letter-spacing: .1;
+	font-weight:300;
+}
+
+body {
+	font-family: Roboto Condensed;
+	font-weight:300;
+}
+
+h1 {
 	font-size:80px;
+}
+h2 {
+	font-size:55px;
+}
+h3 {
+	font-size:39px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6  {
+	font-family: Roboto Condensed;
+	font-weight:300;
+	letter-spacing: -0.97;
+}
+.font-green {
+	color:#C2D31E
+}
+
+.gentium-book {
+	font-family: Gentium Book Basic;
+	font-weight:400;
 }
 .retina-logo, .standard-logo {
 	width:90%;
@@ -26,7 +57,6 @@ body.stretched #header.full-header .container {
 }
 
 .slider-caption p {
-	font-family: .SFNSDisplay-Regular;
 	font-size: 55px;
 	color: #FFFFFF;
 	letter-spacing: -0.98px;
@@ -38,13 +68,19 @@ body.stretched #header.full-header .container {
 	margin-bottom:30px;
 }
 
+.font-purple {
+	color: #7270BC;
+}
+.section-8-box p {
+	color: #7270BC;
+}
+
 .slider-caption .h2-no-margin {
 	margin-bottom:0;
 }
 
 .slider-caption .p-font-size {
 	font-size:16px;
-	font-family: .SFNSDisplay-Regular;
 	color:#FFF;
 	letter-spacing:-0.39px;
 }
@@ -99,15 +135,6 @@ body.stretched #header.full-header .container {
 .text-left .green {
 	color: #C2D31E;
 }
-.green-font {
-	font-family: .SFNSDisplay-Regular;
-	color: #A0AF0F;
-	letter-spacing: -0.5px;
-	font-weight:400;
-}
-.font-normal {
-	font-family: .SFNSDisplay-Regular;
-}
 .row-two-text {
 	color: #FFFFFF;
 	letter-spacing: -0.64px;
@@ -120,13 +147,15 @@ body.stretched #header.full-header .container {
 .notoppadding {
 	padding-top:0;
 }
+#content p {
+	line-height:1.4;
+}
 
 .section-three-text {
 	/* Stephanie iѕ origina: */
-	font-family: .AppleSystemUIFont;
 	font-size: 14px;
 	color: #FFFFFF;
-	margin-bottom:5px;
+	margin-bottom:14px;
 	letter-spacing: -0.32px;
 }
 .toppadding {
@@ -135,7 +164,6 @@ body.stretched #header.full-header .container {
 
 .title-purple {
 	/* LIMITED TIME SUMMER: */
-	font-family: .SFNSDisplay-Regular;
 	font-size: 38px;
 	color: #7270BC;
 	letter-spacing: -0.89px;
@@ -144,7 +172,6 @@ body.stretched #header.full-header .container {
 }
 .section-three-title {
 	/* Ross M. LeCavalier,: */
-	font-family: .SFNSDisplay-Regular;
 	font-size: 25px;
 	color: #C2D31E;
 	letter-spacing: -0.49px;
@@ -152,7 +179,6 @@ body.stretched #header.full-header .container {
 }
 .section-four-span {
 	/* Offer Ends September: */
-	font-family: .SFNSDisplay-Regular;
 	font-size: 20px;
 	font-weight:300;
 	color: #7C7C7C;
@@ -162,7 +188,6 @@ body.stretched #header.full-header .container {
 }
 .section-three-h2 {
 	color:#FFF;
-	font-family: .SFNSDisplay-Regular;
 	font-size: 38px;
 	letter-spacing: -0.89px;
 	font-weight:400;
@@ -209,10 +234,18 @@ body.stretched #header.full-header .container {
 .color-purple-3 {
 	color:#2A2D61;
 }
-
-.no-bold {
+#primary-menu > ul > li > a > div {
+	font-weight:300;
+	font-family: Roboto Condensed;
+}
+#primary-menu > ul > li > a > div.weight-normal {
 	font-weight:400;
 }
+
+.font-light {
+	font-weight:300;
+}
+
 #section-work > div.container.clearfix.center > div > div > .price-box-content > .price-box-p {
 	line-height:20px;
 	font-size:16px;
@@ -221,7 +254,6 @@ body.stretched #header.full-header .container {
 
 .price-box-h3, .price-box-h3-mid {
 	/* New Patient Dental E: */
-	font-family: .SFNSDisplay-Regular;
 	font-size: 28px;
 	font-weight:400;
 	letter-spacing: -0.58px;
@@ -233,7 +265,6 @@ body.stretched #header.full-header .container {
 }
 
 .price-box-price {
-	font-family: .AppleSystemUIFont;
 	font-size: 50px;
 	letter-spacing: -2.38px;
 	line-height: 38px;
@@ -253,7 +284,6 @@ body.stretched #header.full-header .container {
 	background:url('images/reviews-section.jpg')
 }
 .title-white {
-	font-family: .SFNSDisplay-Regular;
 	font-size: 38px;
 	color: #FFFFFF;
 	font-weight:400;
@@ -262,7 +292,6 @@ body.stretched #header.full-header .container {
 }
 .section-six-span {
 	/* Join our Dimensions: */
-	font-family: .SFNSDisplay-Regular;
 	font-size: 18px;
 	font-weight:300;
 	color: #FFFFFF;
@@ -280,7 +309,7 @@ body.stretched #header.full-header .container {
 }
 #h3-ross-m {
 	position:relative;
-	top:15px;
+	top:25px;
 }
 .section-two-border-top {
 	background: #5C5B81;
@@ -332,9 +361,7 @@ body.stretched #header.full-header .container {
 	border-radius: 0px 8px 8px 0px;
 }
 div.box-right > div.box-right-top {
-	/* PLANS START AT:: */
-	font-family: .AppleSystemUIFont;
-	font-size: 14px;
+	/* PLANS START AT:: */	font-size: 14px;
 	color: #3E3E3E;
 	letter-spacing: -0.32px;
 	font-weight:300;
@@ -375,7 +402,6 @@ div.box-right > div.box-right-top {
 }
 .box-left-bottom {
 	/* Easy Monthly Payment: */
-	font-family: .AppleSystemUIFont;
 	font-size: 13px;
 	color: #7C7C7C;
 	letter-spacing: -0px;
@@ -384,4 +410,8 @@ div.box-right > div.box-right-top {
 }
 .box-left-bottom p {
 	margin-bottom:13px;
+}
+
+.weight-normal {
+	font-weight:400;
 }
