@@ -109,7 +109,7 @@
 	padding-top:50px;
 }
 
-.section-four-title {
+.title-purple {
 	/* LIMITED TIME SUMMER: */
 	font-family: .SFNSDisplay-Regular;
 	font-size: 38px;
@@ -221,11 +221,29 @@
 #section-team {
 	background:url('images/reviews-section.jpg')
 }
-.section-five-title {
+.title-white {
 	font-family: .SFNSDisplay-Regular;
 	font-size: 38px;
 	color: #FFFFFF;
 	font-weight:400;
 	letter-spacing: -0.89px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
+}
+.section-six-span {
+	/* Join our Dimensions: */
+	font-family: .SFNSDisplay-Regular;
+	font-size: 18px;
+	font-weight:300;
+	color: #FFFFFF;
+	letter-spacing: -0.46px;
+}
+.section-six-title {
+	margin-bottom:0;
+	font-size:38px;
+}
+.no-text-shadow {
+	text-shadow:none;
+}
+#section-services {
+	background:#3E3E3E;
 }
