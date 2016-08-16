@@ -39,6 +39,10 @@ h6  {
 	color:#C2D31E
 }
 
+.h2-font-less {
+	font-size:35px;
+}
+
 .gentium-book {
 	font-family: Gentium Book Basic;
 	font-weight:400;
@@ -234,10 +238,13 @@ body.stretched #header.full-header .container {
 .color-purple-3 {
 	color:#2A2D61;
 }
-#primary-menu > ul > li > a > div {
+#primary-menu > ul > li > a > div, #primary-menu ul li > a {
 	font-weight:300;
 	font-family: Roboto Condensed;
+	letter-spacing:0px;
+	font-size:12px;
 }
+
 #primary-menu > ul > li > a > div.weight-normal {
 	font-weight:400;
 }
