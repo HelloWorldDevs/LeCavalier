@@ -93,7 +93,7 @@
 #section-about {
 	background:#3E3E3E;
 }
-.content-wrap {
+.notoppadding {
 	padding-top:0;
 }
 
@@ -104,6 +104,9 @@
 	color: #FFFFFF;
 	margin-bottom:5px;
 	letter-spacing: -0.32px;
+}
+.toppadding {
+	padding-top:50px;
 }
 
 .section-four-title {
@@ -145,48 +148,74 @@
 	border: 1px solid #7C7C7C;
 }
 
-.row .price-box {
+.row .price-box, .row .price-box-mid {
 	/* Rectangle 5 Copy 2: */
 	background: #FFFFFF;
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	border-radius: 8px;
+	border: 1px solid #7C7C7C;
+	height:415px;
+	text-align:left;
+}
+
+.row .price-box {
+	color:#5C5B81
+}
+.row .price-box-mid {
+	color: #7270BC;
+}
+
+.price-box-top, .price-box-top-mid {
+	height:15px;
+	border-radius:7px 7px 0 0;
+}
+.price-box-top {
+	background: #5C5B81;;
+}
+.price-box-top-mid {
+	background:#7270BC;
+}
+.price-box-content {
+	padding:25px;
+}
+
+.no-bold {
+	font-weight:400;
+}
+#section-work > div.container.clearfix.center > div > div > .price-box-content > .price-box-p {
+	line-height:20px;
+	font-size:16px;
+}
+
+
+.price-box-h3, .price-box-h3-mid {
+	/* New Patient Dental E: */
+	font-family: .SFNSDisplay-Regular;
+	font-size: 28px;
+	font-weight:400;
+	letter-spacing: -0.58px;
+	line-height: 38px;
+	margin-bottom:5px;
+}
+.price-box-h3-mid, .price-box-h4-mid {
+	color:#7270BC;
+}
+
+.price-box-price {
+	font-family: .AppleSystemUIFont;
+	font-size: 50px;
+	letter-spacing: -2.38px;
+	line-height: 38px;
+	text-align:right;
+}
+
+
+.dollar {
+	font-size:20px;
+	position:relative;
+	top:-20px;
 }
 #section-work {
 
 	background: #F7F7F7;
 }
-/* Rectangle 4: */
-background: #3E3E3E;
-/* Rectangle 4: */
-background-image: linear-gradient(-180deg, #252525 0%, #3E3E3E 65%);
-/* Line Copy: */
-border: 5px solid #5C5B81;
-/* A native оf thе Chic: */
-font-family: .AppleSystemUIFont;
-font-size: 18px;
-color: #FFFFFF;
-letter-spacing: -0.32px;
-/* Stephanie iѕ origina: */
-font-family: .AppleSystemUIFont;
-font-size: 18px;
-color: #FFFFFF;
-letter-spacing: -0.32px;
-/* MEET THE TEAM: */
-font-family: .SFNSDisplay-Regular;
-font-size: 55px;
-color: #FFFFFF;
-letter-spacing: -0.89px;
-/* Ross M. LeCavalier,: */
-font-family: .SFNSDisplay-Regular;
-font-size: 30px;
-color: #C2D31E;
-letter-spacing: -0.49px;
-/* Stephanie: */
-font-family: .SFNSDisplay-Regular;
-font-size: 30px;
-color: #C2D31E;
-letter-spacing: -0.49px;
-/* Ross-LeCavalier_bio: */
-/* Line: */
-border: 1px solid #7C7C7C;
-/* stephanie: */
