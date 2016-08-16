@@ -308,8 +308,11 @@ body.stretched #header.full-header .container {
 	border-radius:8px;
 }
 .box-left, .box-right {
-	height:220px;
+	height:200px;
 	padding:20px;
+}
+#insurance-text {
+	margin-bottom: 30px;
 }
 .box-left {
 	width:80%;
@@ -322,12 +325,41 @@ body.stretched #header.full-header .container {
 	background:#C2D31E;
 	border-radius: 0px 8px 8px 0px;
 }
-.box-right-top, .box-right-bottom {
-	border:1px solid #000;
-	height:20px;
+div.box-right > div.box-right-top {
+	/* PLANS START AT:: */
+	font-family: .AppleSystemUIFont;
+	font-size: 14px;
+	color: #3E3E3E;
+	letter-spacing: -0.32px;
+	font-weight:300;
+	text-align:center;
+	margin-bottom:-8px;
+	margin-top:10px;
+}
+.btn-black {
+	background: #3E3E3E;
+	text-align:center;
+	margin:0 auto;
+	width:100%;
+	margin-top:10px;
+}
+.box-right-bottom {
+	text-align:center;
+	color:#3E3E3E;
+}
+.box-right-bottom span {
+	text-align:center;
 }
 .fa-check-square-o {
 	margin-right:10px;
+}
+
+#price-28 {
+	font-size:56px;
+}
+#dollar-28 {
+	position:relative;
+	top:-25px;
 }
 
 .box-left-top {
@@ -345,5 +377,5 @@ body.stretched #header.full-header .container {
 	line-height: 43px;
 }
 .box-left-bottom p {
-	margin-bottom:20px;
+	margin-bottom:13px;
 }
