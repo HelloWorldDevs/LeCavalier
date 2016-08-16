@@ -59,6 +59,9 @@ h6  {
 body.stretched #header.full-header .container {
 	padding-left:10px;
 }
+.text-white {
+	color:#FFF;
+}
 
 .slider-caption p {
 	font-size: 55px;
@@ -153,6 +156,7 @@ body.stretched #header.full-header .container {
 }
 #content p {
 	line-height:1.4;
+	font-size:13.5px;
 }
 
 .section-three-text {
@@ -178,8 +182,8 @@ body.stretched #header.full-header .container {
 	/* Ross M. LeCavalier,: */
 	font-size: 25px;
 	color: #C2D31E;
-	letter-spacing: -0.49px;
 	font-weight:400;
+	margin-bottom:40px;
 }
 .section-four-span {
 	/* Offer Ends September: */
@@ -189,12 +193,6 @@ body.stretched #header.full-header .container {
 	letter-spacing: -0.46px;
 }
 .section-four-row {
-}
-.section-three-h2 {
-	color:#FFF;
-	font-size: 38px;
-	letter-spacing: -0.89px;
-	font-weight:400;
 }
 .split-row-line {
 	/* Line: */
