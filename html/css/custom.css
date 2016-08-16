@@ -139,7 +139,7 @@
 .section-three-h2 {
 	color:#FFF;
 	font-family: .SFNSDisplay-Regular;
-	font-size: 45px;
+	font-size: 38px;
 	letter-spacing: -0.89px;
 	font-weight:400;
 }
@@ -209,7 +209,6 @@
 	text-align:right;
 }
 
-
 .dollar {
 	font-size:20px;
 	position:relative;
@@ -218,4 +217,15 @@
 #section-work {
 
 	background: #F7F7F7;
+}
+#section-team {
+	background:url('images/reviews-section.jpg')
+}
+.section-five-title {
+	font-family: .SFNSDisplay-Regular;
+	font-size: 38px;
+	color: #FFFFFF;
+	font-weight:400;
+	letter-spacing: -0.89px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
 }
