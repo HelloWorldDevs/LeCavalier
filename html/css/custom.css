@@ -217,7 +217,7 @@ body.stretched #header.full-header .container {
 }
 .section-four-span {
 	/* Offer Ends September: */
-	font-size: 18px;
+	font-size: 18.5px;
 	color: #7C7C7C;
 	letter-spacing:.5px;
 }
@@ -226,6 +226,18 @@ body.stretched #header.full-header .container {
 .split-row-line {
 	/* Line: */
 	border: 1px solid #7C7C7C;
+}
+.contact-blue {
+	color:#2A2D61;
+	font-weight:bold;
+	margin-bottom:0;
+}
+.bottommargin-20 {
+	margin-bottom:20px;
+}
+.contact-address {
+	font-size:12px;
+	color:#7C7C7C;
 }
 
 .row .price-box, .row .price-box-mid {
@@ -237,6 +249,9 @@ body.stretched #header.full-header .container {
 	height:340px;
 	text-align:left;
 }
+.img-size-80 {
+	width:80%;
+} 
 
 .row .price-box {
 	color:#5C5B81
@@ -489,4 +504,11 @@ div.box-right > div.box-right-top {
 
 .bold {
 	font-weight:500;
+}
+
+.img-half {
+	width:50%;
+}
+.float-right {
+	float:right;
 }
