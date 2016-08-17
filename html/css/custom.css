@@ -11,6 +11,7 @@
 	font-weight:300;
 }
 
+
 body {
 	font-family: Roboto Condensed;
 	font-weight:300;
@@ -517,6 +518,11 @@ div.box-right > div.box-right-top {
 	color:#2A2D61;
 	font-weight:500;
 }
+.reviews {
+	width:100%;
+	text-align:center;
+	height:600px;
+}
 #contact-phone-small {
 	color:#2A2D61;
 	font-size:15px;
@@ -531,4 +537,15 @@ div.box-right > div.box-right-top {
 
 .float-left {
 	float:left;
+}
+
+#bfpublish {
+	height:500px;
+}
+
+.reviews-wrap {
+	width:80%;
+	height:200px !important;
+	margin:0 auto;
+	text-align:center;
 }
