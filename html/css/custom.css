@@ -462,3 +462,28 @@ div.box-right > div.box-right-top {
 .weight-normal {
 	font-weight:400;
 }
+#section-smile-gallery {
+	height:561px;
+	padding-bottom:0;
+}
+
+#section-smile-gallery > div > div > h2 {
+	color:#2A2D61;
+	font-size:48px;
+	margin-bottom:0px;
+}
+#section-smile-gallery > div > div > h3 {
+	font-size:23px;
+	color:#3E3E3E
+}
+#section-smile-gallery > div > div > p {
+	font-size:15px;
+	color:#3E3E3E;
+	margin-bottom:20px;
+}
+#section-smile-gallery > div > div > button {
+	width:275px;
+	color:#2F2E30;
+	border-radius: 8px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
