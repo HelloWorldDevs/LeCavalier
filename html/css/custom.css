@@ -679,3 +679,8 @@ section {
 		margin-bottom:15px;
 	}
 }
+@media only screen and (max-width:480px) {
+	.price-mobile {
+		margin-bottom:15px;
+	}
+}
