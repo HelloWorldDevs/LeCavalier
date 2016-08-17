@@ -82,8 +82,8 @@ body.stretched #header.full-header .container {
 	color: #FFFFFF;
 	letter-spacing: -0.98px;
 }
-.topmargin-30 {
-	margin-top:30px;
+.topmargin-15 {
+	margin-top:15px;
 }
 .bottommargin-30 {
 	margin-bottom:30px;
@@ -251,7 +251,7 @@ body.stretched #header.full-header .container {
 }
 .img-size-80 {
 	width:80%;
-} 
+}
 
 .row .price-box {
 	color:#5C5B81
@@ -511,4 +511,24 @@ div.box-right > div.box-right-top {
 }
 .float-right {
 	float:right;
+}
+#contact-phone-big {
+	font-size:22px;
+	color:#2A2D61;
+	font-weight:500;
+}
+#contact-phone-small {
+	color:#2A2D61;
+	font-size:15px;
+}
+
+.margin-neg-5 {
+	margin-bottom:-5px;
+}
+.noleftpadding {
+	padding-left:0;
+}
+
+.float-left {
+	float:left;
 }
