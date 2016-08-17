@@ -86,6 +86,9 @@ body.stretched #header.full-header .container {
 .topmargin-15 {
 	margin-top:15px;
 }
+.topmargin-30 {
+	margin-top:30px;
+}
 .bottommargin-30 {
 	margin-bottom:30px;
 }
@@ -548,4 +551,39 @@ div.box-right > div.box-right-top {
 	height:200px !important;
 	margin:0 auto;
 	text-align:center;
+}
+
+#footer, #copyrights {
+	background: #5C5B81;
+	height:96px;
+}
+#copyrights {
+	margin:0 auto;
+	color:#FFF;
+	text-align:center;
+}
+.social-icon {
+	color:#FFF;
+	border-radius:5px;
+}
+.si-twitter {
+	background:#4099FF;
+}
+.social-icon-wrap {
+	padding-right:15px;
+	position:absolute;
+	right:0px;
+}
+.social-icon {
+	margin-right:15px;
+}
+.si-gplus {
+	background:#dd4b39;
+}
+.si-facebook {
+	background:#3b5998;
+}
+#footer {
+	border-top:0;
+	height:96px;
 }
