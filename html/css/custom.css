@@ -37,8 +37,14 @@ h6  {
 	font-weight:300;
 	letter-spacing: -0.97;
 }
+h4 {
+	font-size:26px;
+}
+.dark h4 {
+	color:#C2D31E;
+}
 .font-green {
-	color:#C2D31E
+	color:#C2D31E;
 }
 .font-green-2 {
 	color:#A0AF0F;
@@ -80,7 +86,6 @@ body.stretched #header.full-header .container {
 
 .slider-caption p {
 	font-size: 55px;
-	color: #FFFFFF;
 	letter-spacing: -0.98px;
 }
 .topmargin-15 {
@@ -123,8 +128,18 @@ body.stretched #header.full-header .container {
 
 .slider-caption .p-font-size {
 	font-size:16px;
-	color:#FFF;
-	letter-spacing:-0.39px;
+	margin-bottom:-5px;
+	letter-spacing:.5px;
+	float:right;
+}
+.section-1-row {
+	text-align:center;
+	width:50%;
+	margin:0 auto;
+}
+.section-1-column {
+	border-right:1px solid #FFF;
+	text-align:right;
 }
 
 .two-column-short {
