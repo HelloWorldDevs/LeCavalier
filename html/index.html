@@ -18,7 +18,6 @@
 	<link rel="stylesheet" href="css/colors.css" type="text/css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -27,6 +26,7 @@
 	<!-- Document Title
 	============================================= -->
 	<title>Home - One Page Layout | Canvas</title>
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 
 </head>
 
@@ -35,24 +35,24 @@
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
+		<section id="mobile-background">
+			<img src="images/mobile-slide.jpg" style="width:100%;height:auto;">
+		</section>
+		<section id="slider" class=" full-screen with-header" style="background-image:url('images/masthead3.jpg')">
 
-		<div id="new-patient-offers" class="page-section" style="position:absolute;top:0;left:0;width:100%;height:200px;z-index:-2;"></div>
-
-		<section id="slider" class="slider-parallax full-screen with-header swiper_wrapper clearfix">
-
-				<div class="swiper-slide dark" style="background-image: url('images/masthead3.jpg');">
+				<div class="dark">
 					<div class="container clearfix">
 						<div class="slider-caption slider-caption-center">
 							<h2 class="h2-no-margin">No Insurance?</h2>
 							<h3 class="gentium-book font-light" data-caption-animate="fadeInUp"  data-caption-delay="200">Start Saving Today!</h3>
 							<div class="row section-1-row">
 								<div class="col-md-6 roboto-condensed section-1-column" id="col-right">
-									<p class="p-font-size p-no-margin">New Patient Hotline</p>
-									<h4 class="font-green">(888) 345-1307</h4>
+									<div class="height-30"><h5 class="p-font-size p-no-margin">New Patient Hotline</h5></div>
+									<div><h4 class="font-green">(888) 345-1307</h4></div>
 								</div>
 								<div class="col-md-6" id="col-left">
 									<div class="btn-wrap">
-										<button class="btn btn-green green"><i class="fa fa-calendar" aria-hidden="true"></i><span class="margin-left-3"> Join Our Membership Club </button>
+										<button class="btn btn-green green" id="move-up"><i class="fa fa-calendar" aria-hidden="true"></i><span class="margin-left-3"> Join Our Membership Club </button>
 									</div>
 								</div>
 							</div>
@@ -73,7 +73,7 @@
 
 			<div id="header-wrap">
 
-				<div class="container clearfix">
+				<div class="container clearfix" id="nav-bar-mobile">
 
 					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
@@ -142,7 +142,7 @@
 							<h2 class="text-white">MEET THE TEAM</h2>
 						</div>
 						<div class="row section-three-row-one">
-							<div class="col-md-3">
+							<div class="col-md-3 center-mobile">
 								<img src="images/Ross-LeCavalier_bio.jpg">
 							</div>
 							<div class="col-md-9">
@@ -158,14 +158,16 @@
 						<hr class="split-row-line">
 						<br>
 						<div class="row bottommargin">
+							<div class="col-md-3 pull-right center-mobile">
+								<div class="stephanie-wrap">
+									<img src="images/stephanie.jpg">
+								</div>
+							</div>
 							<div class="col-md-9">
 								<h3 class="section-three-title">Stephanie</h3>
 								<p class="section-three-text">Stephanie is originally a native of England and graduated from the University of Colorado with a B.A. in Biology. She has been in the field of dentistry for 12 years, beginning as a dental assistant. Her extensive and varied knowledge of dentistry can help her answer all of your questions.</p>
 								<p class="section-three-text">Stephanie is proud to be part of such an excellent team of cosmetic and family dentists here in our dental office in Denver where we are dedicated to the highest standard of patient care, in a comfortable and caring atmosphere.</p>
 								<p class="section-three-text">Stephanie is married with two young boys. She and her family enjoy cmaping, biking, sports and travel.</p>
-							</div>
-							<div class="col-md-3 pull-right">
-								<img src="images/stephanie.jpg">
 							</div>
 
 						</div>
