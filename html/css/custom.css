@@ -627,6 +627,9 @@ div.box-right > div.box-right-top {
 .float-left {
 	float:left;
 }
+.nopaddingright {
+	padding-right:0;
+}
 
 #bfpublish {
 	height:500px;
@@ -801,6 +804,13 @@ section {
 		width:18% !important;
 		float:right;
 	}
+	#col-left > .btn-wrap {
+		float:none;
+	}
+	.center-mobile {
+		text-align:center;
+		float:none !important;
+	}
 
 }
 
@@ -825,10 +835,7 @@ section {
 	#mobile-background {
 		display:block;
 	}
-	.center-mobile {
-		text-align:center;
-		float:none !important;
-	}
+
 	.stephanie-wrap {
 		margin-bottom:25px;
 	}
@@ -845,6 +852,9 @@ section {
 @media only screen and (max-width:320px) {
 	div.box-left > div.box-left-top > h4 {
 		font-size:18px;
+	}
+	.col-md-4.center.noleftpadding {
+		padding-right:0;
 	}
 	#section-services {
 		height:550px;
