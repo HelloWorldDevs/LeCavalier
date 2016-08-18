@@ -501,6 +501,12 @@ div.box-right > div.box-right-top {
 	margin-bottom:13px;
 }
 
+.img-abs {
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
 .weight-normal {
 	font-weight:400;
 }
