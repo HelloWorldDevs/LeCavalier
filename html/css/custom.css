@@ -115,6 +115,20 @@ body.stretched #header.full-header .container {
 .font-purple {
 	color: #7270BC;
 }
+.dark .slider-caption h2 {
+	letter-spacing: -1.5px;
+}
+.top-15 {
+	position:relative;
+	top:-15px;
+	font-size:15px;
+}
+.slider-caption.slider-caption-center {
+		max-width:1100px;
+}
+.nomargintop {
+	margin-top:0;
+}
 
 .section-8-boxes {
 	margin-top:17px;
