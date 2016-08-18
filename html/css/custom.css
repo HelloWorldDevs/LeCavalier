@@ -637,6 +637,9 @@ section {
 		padding-left:10px;
 		padding-right:10px;
 	}
+	#primary-menu ul li > a {
+		background:#fff;
+	}
 
 }
 
@@ -703,6 +706,9 @@ section {
 		margin:0 auto;
 		margin-top:20px;
 	}
+	#section-pricing > div > .row > .col-md-4.center.noleftpadding {
+		padding-right:0;
+	}
 	.social-icon-wrap {
 		position:relative;
 		float:none !important;
@@ -715,6 +721,13 @@ section {
 	.copyright-text {
 		margin-top:-20px;
 	}
+	#primary-menu-trigger {
+		font-size:35px;
+	}
+	#logo img {
+		width:18% !important;
+		float:right;
+	}
 
 }
 
@@ -723,15 +736,21 @@ section {
 	#slider {
 		display:none;
 	}
-	#mobile-background {
-		display:block;
+	.box-left {
+		height:365px;
 	}
-	#primary-menu-trigger {
-		font-size:35px;
+	div.box-left > div.box-left-top > h4 {
+		font-size:20px;
+	}
+	#dollar-28, #price-28 {
+		left:-43px;
 	}
 	#logo img {
-		width:45%;
+		width:22% !important;
 		float:right;
+	}
+	#mobile-background {
+		display:block;
 	}
 	.center-mobile {
 		text-align:center;
@@ -748,5 +767,30 @@ section {
 @media only screen and (max-width:480px) {
 	.price-mobile {
 		margin-bottom:15px;
+	}
+}
+@media only screen and (max-width:320px) {
+	div.box-left > div.box-left-top > h4 {
+		font-size:18px;
+	}
+	#section-services {
+		height:550px;
+	}
+	.section-six-container {
+		width:100%;
+	}
+	.box-right {
+		height:185px;
+	}
+	div.box-right > div.box-right-top {
+		font-size:15px;
+	}
+
+	#dollar-28, #price-28 {
+		left:-30px;
+		font-size:25px;
+	}
+	#footer, #copyrights {
+		height: auto;
 	}
 }
