@@ -124,7 +124,15 @@ body.stretched #header.full-header .container {
 .bottommargin-30 {
 	margin-bottom:30px;
 }
-
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+}
 .font-purple {
 	color: #7270BC;
 }
