@@ -40,6 +40,9 @@ h6  {
 h4 {
 	font-size:26px;
 }
+h5 {
+	font-size:20px;
+}
 #slider > div > div > div > div.row.center {
 	position:relative;
 	top:-20px;
@@ -539,6 +542,21 @@ div.box-right > div.box-right-top {
 
 .bold {
 	font-weight:500;
+}
+.nopadding {
+	padding:0;
+}
+
+.modal-header-2 {
+	padding:0px;
+	height:0px;
+}
+.modal-header .close {
+	padding-top:15px;
+	margin-right:15px;
+	position:absolute;
+	right:0px;
+	top:0px;
 }
 
 .img-half {
