@@ -11,6 +11,10 @@
 	font-weight:300;
 }
 
+.roll-over:hover {
+	opacity:.9;
+}
+
 
 body {
 	font-family: Roboto Condensed;
