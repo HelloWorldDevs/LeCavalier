@@ -1,4 +1,31 @@
 (function($) {
+  var HelloWorldDevs = function() {
+
+  };
+
+  HelloWorldDevs.prototype.fixRows = function () {
+    var rowLength = ($(window).width() < 992) ? 2 : 3;
+    var mod = rowLength * this.rowNum;
+    var $cells = $('.section-services__service-tile');
+    var $loadMore = $('.load-more');
+    for (var x = 0; x < $cells.length; x++) {
+      if (x < mod) {
+        $($cells[x]).removeClass('hidden');
+      } else {
+        $($cells[x]).addClass('hidden');
+      }
+      if ($cells.length <= mod) {
+        $loadMore.hide();
+      }
+    }
+  };
+
+  HelloWorldDevs.prototype.noOrphans = function (selectors) {
+    $(selectors).each(function () {
+      $(this).html($(this).html().replace(/\s([^\s<]{0,10})\s*$/, '&nbsp;$1'));
+    });
+  };
+
   HelloWorldDevs.prototype.mailForm = function (form) {
     var $form = $(form);
     $form.before('<div class="form-error"></div>');
@@ -29,7 +56,29 @@
     });
   };
 
+  var HWD = new HelloWorldDevs();
+  $(document).ready(function () {
+  function goToByScroll(id){
+        // Remove "link" from the ID
+      id = id.replace("-link", "");
+        // Scroll
+      $('html,body').animate({
+          scrollTop: $("#"+id).offset().top},
+          'slow');
+  }
+
+  $("#section-reviews-link").click(function(e) {
+        // Prevent a page reload when a link is pressed
+      e.preventDefault();
+        // Call the scroll function
+      goToByScroll(this.id);
+  });
+    HWD.fixRows();
+    HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
+    HWD.mailForm('#mail-form');
+  });
   $(window).on("resize", function () {
     HWD.fixRows();
   });
+
 })(jQuery);
