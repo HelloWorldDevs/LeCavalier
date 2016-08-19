@@ -848,6 +848,9 @@ section {
 	.price-mobile {
 		margin-bottom:15px;
 	}
+	.carousel-inner > .item > img {
+		width:48%;
+	}
 }
 @media only screen and (max-width:320px) {
 	div.box-left > div.box-left-top > h4 {
