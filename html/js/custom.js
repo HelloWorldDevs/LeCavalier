@@ -57,20 +57,10 @@
   };
 
   var HWD = new HelloWorldDevs();
-  $(document).ready(function () {
-  function goToByScroll(id){
-        // Remove "link" from the ID
-      id = id.replace("-link", "");
-        // Scroll
-      $('html,body').animate({
-          scrollTop: $("#"+id).offset().top},
-          'slow');
-  }
 
-  $("#section-reviews-link").click(function(e) {
-      e.preventDefault();
-      goToByScroll(this.id);
-  });
+    $(document).ready(function () {
+
+
 
     HWD.fixRows();
     HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
@@ -79,5 +69,6 @@
   $(window).on("resize", function () {
     HWD.fixRows();
   });
+
 
 })(jQuery);
