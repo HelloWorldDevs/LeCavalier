@@ -436,6 +436,10 @@ q:after {
 .no-text-shadow {
 	text-shadow:none;
 }
+
+.fa-star {
+	color:#FFD700;
+}
 #section-services {
 	background:#3E3E3E;
 }
