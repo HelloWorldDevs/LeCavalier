@@ -647,8 +647,7 @@
 	<!-- External JavaScripts
 	============================================= -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="javascript/smoothscroll.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 
 	<!-- Footer Scripts
@@ -670,7 +669,6 @@
 					address: "2761 W. 120th Avenue, Westminister",
 					html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
 					icon: {
-						image: "images/icons/map-icon-red.png",
 						iconsize: [32, 39],
 						iconanchor: [32,39]
 					}
