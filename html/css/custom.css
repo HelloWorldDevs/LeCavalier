@@ -789,9 +789,11 @@ section {
 		text-align:right;
 		width:50%;
 	}
-	#google-map {
+	#google-map-img {
 		margin:0 auto;
 		margin-top:20px;
+		width:76%;
+		height:76%;
 	}
 	#section-pricing > div > .row > .col-md-4.center.noleftpadding {
 		padding-right:0;
