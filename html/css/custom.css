@@ -370,7 +370,7 @@ q:after {
 	font-weight:300;
 	font-family: Roboto Condensed;
 	letter-spacing:0px;
-	font-size:12px;
+	font-size:14px;
 }
 
 #primary-menu > ul > li > a > div.weight-normal {
@@ -727,6 +727,9 @@ section {
 	.section-1-column {
 		text-align:center;
 	}
+	#section-location > div > div.row > div > div > div > img {
+		width:50%
+	}
 	#col-left {
 		border-left:none;
 	}
@@ -811,6 +814,10 @@ section {
 	#col-left > .btn-wrap {
 		float:none;
 	}
+	.top-mobile {
+		position:relative;
+		top:-20px;
+	}
 	.center-mobile {
 		text-align:center;
 		float:none !important;
@@ -822,6 +829,9 @@ section {
 @media only screen and (max-width:768px) {
 	#slider {
 		display:none;
+	}
+	#section-location > div > div.row > div.col-md-4.center.noleftpadding {
+		padding-right:0;
 	}
 	.box-left {
 		height:365px;
@@ -859,6 +869,10 @@ section {
 @media only screen and (max-width:320px) {
 	div.box-left > div.box-left-top > h4 {
 		font-size:18px;
+	}
+	.social-icon-wrap {
+		position:relative;
+		left:15px;
 	}
 	.col-md-4.center.noleftpadding {
 		padding-right:0;

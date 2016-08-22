@@ -68,11 +68,10 @@
   }
 
   $("#section-reviews-link").click(function(e) {
-        // Prevent a page reload when a link is pressed
       e.preventDefault();
-        // Call the scroll function
       goToByScroll(this.id);
   });
+
     HWD.fixRows();
     HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
     HWD.mailForm('#mail-form');
