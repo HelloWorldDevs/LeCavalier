@@ -25,6 +25,10 @@
         slider.removeClass('preloader2');
       }
     });
+    $('.ui-accordion-header').click(function () {
+     $(this).parent().find('.ui-accordion-content').addClass('folded');
+     $(this).next().removeClass('folded');
+   });
 
     $('.load-more').on("click", function () {
       HWD.rowNum += 1;
