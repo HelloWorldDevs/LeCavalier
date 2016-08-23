@@ -9,8 +9,8 @@
       easing: 'swing',
       direction: 'horizontal',
       reverse: false,
-      slideshow: 'false',
-      slideshowSpeed: Number(5000),
+      slideshow: 'true',
+      slideshowSpeed: Number(1000),
       animationSpeed: Number(600),
       pauseOnHover: true,
       video: false,
@@ -97,7 +97,7 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 8000,
     });
     $('.team-slider').slick({
       dots: true,
@@ -106,7 +106,7 @@
       slidesToShow: 4,
       slidesToScroll: 1,
       arrows: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 8000,
       responsive: [
         {
           breakpoint: 800,
