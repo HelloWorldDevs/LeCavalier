@@ -380,7 +380,6 @@ q:after {
 }
 
 
-
 .price-box-h3, .price-box-h3-mid {
 	/* New Patient Dental E: */
 	font-size: 28px;
@@ -729,6 +728,41 @@ section {
 	padding-right:0px !important;
 }
 
+.mobile-appear {
+	display:none;
+}
+.no-ins-mobile-1 {
+	background:#FFF;
+	font-size:16px;
+	padding-bottom:0;
+	margin-top:15px;
+	padding-bottom:1px;
+	border-radius:5px 5px 0px 0px;
+}
+.no-ins-mobile-1 > h3 {
+	border-bottom:1px solid #000;
+}
+.no-ins-mobile-1 > h4 {
+	font-size:16px;
+	border-bottom:
+}
+
+.no-ins-mobile-2 > h5 {
+	margin-bottom:10px;
+}
+.no-ins-mobile-2 > h3 {
+	margin-bottom:5px;
+}
+.dollar-2 {
+	color:#444;
+}
+.no-ins-mobile-2 {
+	background:#C2D31E;
+	padding-bottom:10px;
+	border-radius:0px 0px 5px 5px;
+	margin-bottom:20px;
+}
+
 
 
 @media only screen and (max-width:1200px) {
@@ -749,7 +783,7 @@ section {
 
 }
 
-@media only screen and (max-width:1152px) {
+@media only screen and (max-width:1223px) {
 	#primary-menu > ul > li > a > div, #primary-menu ul li > a {
 		font-weight:300;
 		font-family: Roboto Condensed;
@@ -805,6 +839,7 @@ section {
 		width:100%;
 		margin:0 auto;
 		border-radius:0px 0px 8px 8px;
+		margin-bottom:20px;
 	}
 	#price-28 {
 		font-size:30px;
@@ -815,7 +850,7 @@ section {
 		left:-80px;
 	}
 	#section-services {
-		height:500px;
+
 	}
 	.section-six-container {
 		height:320px;
@@ -872,6 +907,15 @@ section {
 @media only screen and (max-width:768px) {
 	#slider {
 		display:none;
+	}
+	.mobile-appear {
+		display:block;
+	}
+	.disappear-mobile {
+		display:none;
+	}
+	#section-services {
+		height:auto !important;
 	}
 	#section-location > div > div.row > div.col-md-4.center.noleftpadding {
 		padding-right:0;
