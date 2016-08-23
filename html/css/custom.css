@@ -184,6 +184,15 @@ q:after {
 	margin-bottom:-5px;
 	letter-spacing:.5px;
 }
+.a-exception {
+	font-size:16px;
+	color:#FFF;
+}
+
+.a-exception:hover {
+	color:#2e8ece;
+	font-size:16px;
+}
 .section-1-row {
 	text-align:center;
 	width:50%;
