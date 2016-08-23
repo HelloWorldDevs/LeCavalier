@@ -12,12 +12,18 @@
 }
 
 .roll-over:hover {
+	background-color: #5552A5;
+	color: #FFFFFF;
 	opacity:.9;
+}
+.purple-roll-over:hover {
+	background:#5552A5;
 }
 
 
 body {
-	font-family: Roboto Condensed;
+	font-size: 16px;
+	font-family: Roboto Condensed, sans-serif;
 	font-weight:300;
 	color:#333;
 }
@@ -39,7 +45,6 @@ h5,
 h6  {
 	font-family: Roboto Condensed;
 	font-weight:300;
-	letter-spacing: -0.97;
 }
 h4 {
 	font-size:26px;
@@ -117,7 +122,6 @@ body.stretched #header.full-header .container {
 
 .slider-caption p {
 	font-size: 55px;
-	letter-spacing: -0.98px;
 }
 .topmargin-15 {
 	margin-top:15px;
@@ -141,7 +145,6 @@ q:after {
 	color: #7270BC;
 }
 .dark .slider-caption h2 {
-	letter-spacing: -1.5px;
 }
 .top-15 {
 	position:relative;
@@ -186,6 +189,7 @@ q:after {
 	margin-bottom:-5px;
 	letter-spacing:.5px;
 }
+
 .section-1-row {
 	text-align:center;
 	width:50%;
@@ -247,7 +251,6 @@ q:after {
 }
 .row-two-text {
 	color: #FFFFFF;
-	letter-spacing: -0.64px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.91);
 }
 
@@ -260,10 +263,9 @@ q:after {
 
 .section-three-text {
 	/* Stephanie iѕ origina: */
-	font-size: 14px;
+	font-size: 16px;
 	color: #FFFFFF;
 	margin-bottom:14px;
-	letter-spacing: -0.32px;
 }
 .toppadding {
 	padding-top:50px;
@@ -291,7 +293,6 @@ q:after {
 	/* Offer Ends September: */
 	font-size: 18.5px;
 	color: #7C7C7C;
-	letter-spacing:.5px;
 }
 .section-four-row {
 }
@@ -358,6 +359,7 @@ q:after {
 
 #content p {
 	line-height:1.3;
+	font-size:16px;
 }
 .purple-1 {
 	color:#5C5B81;
@@ -369,8 +371,7 @@ q:after {
 #primary-menu > ul > li > a > div, #primary-menu ul li > a {
 	font-weight:300;
 	font-family: Roboto Condensed;
-	letter-spacing:0px;
-	font-size:14px;
+	font-size:16px;
 }
 
 #primary-menu > ul > li > a > div.weight-normal {
@@ -382,12 +383,10 @@ q:after {
 }
 
 
-
 .price-box-h3, .price-box-h3-mid {
 	/* New Patient Dental E: */
 	font-size: 28px;
 	font-weight:400;
-	letter-spacing: -0.58px;
 	line-height: 38px;
 	margin-bottom:5px;
 }
@@ -397,7 +396,6 @@ q:after {
 
 .price-box-price {
 	font-size: 50px;
-	letter-spacing: -2.38px;
 	line-height: 38px;
 	text-align:right;
 }
@@ -416,8 +414,82 @@ q:after {
 #section-team {
 	background:url('images/reviews-section.jpg')
 }
+
+ .ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+.font-14 {
+	font-size:12px;
+}
+.height-96 {
+	height:96px;
+}
+.social-wrap {
+	height:33px;
+	float:right;
+}
+
+ .ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0;
+  padding: .5em 0;
+  min-height: 0;
+  color: #7270BC;
+  font-size:16px;
+}
+
+ .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+ .ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+ .ui-accordion .ui-accordion-content.ui-accordion-content-active {
+}
+
+.ui-accordion-content {
+  max-height: 500px;
+  transition: .5s max-height ease;
+}
+.folded {
+max-height: 0px;
+}
+ .ui-accordion .ui-accordion-content {
+  margin: .5em 0;
+  overflow: auto;
+  border: none;
+  font-size: 95%;
+}
+
+ .ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
 .title-white {
-	font-size: 38px;
+	font-size: 48px;
 	color: #FFFFFF;
 	font-weight:400;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
@@ -427,11 +499,10 @@ q:after {
 	font-size: 18px;
 	font-weight:300;
 	color: #FFFFFF;
-	letter-spacing: -0.46px;
 }
 .section-six-title {
+	color: #C2D31E;
 	margin-bottom:0;
-	font-size:38px;
 }
 .no-text-shadow {
 	text-shadow:none;
@@ -500,10 +571,17 @@ q:after {
 div.box-right > div.box-right-top {
 	/* PLANS START AT:: */	font-size: 14px;
 	color: #3E3E3E;
-	letter-spacing: -0.32px;
 	font-weight:300;
 	text-align:center;
 	margin-bottom:-8px;
+	margin-top:10px;
+}
+.btn-learn-more {
+	background: #7270BC;
+	color: #FFFFFF;
+	text-align:center;
+	margin:0 auto;
+	width:100%;
 	margin-top:10px;
 }
 .btn-black {
@@ -541,7 +619,6 @@ div.box-right > div.box-right-top {
 	/* Easy Monthly Payment: */
 	font-size: 13px;
 	color: #7C7C7C;
-	letter-spacing: -0px;
 	font-weight:300;
 	line-height: 43px;
 }
@@ -574,7 +651,7 @@ div.box-right > div.box-right-top {
 	letter-spacing:.5px;
 }
 #section-smile-gallery > div > div > p {
-	font-size:15px;
+	font-size:16px;
 	color:#3E3E3E;
 	margin-bottom:20px;
 }
@@ -709,6 +786,69 @@ section {
   display: none;
 }
 
+.a-exception {
+	font-size:16px !important;
+	color:#FFF !important;
+}
+.bf-spn {
+	color:#FFF !important;
+	font-size:16px !important;
+}
+
+.a-exception:hover {
+	color:#2e8ece !important;
+	font-size:16px !important;
+	text-decoration:underline;
+}
+
+#nav-bar-mobile {
+	padding-right:0px !important;
+}
+
+.mobile-appear {
+	display:none;
+}
+#primary-menu ul > li:hover {
+	text-decoration:underline;
+	color:#444;
+}
+#primary-menu > ul > li:hover > a {
+	color:currentColor;
+}
+.no-ins-mobile-1 {
+	background:#FFF;
+	font-size:16px;
+	padding-bottom:0;
+	margin-top:15px;
+	padding-bottom:1px;
+	border-radius:5px 5px 0px 0px;
+}
+.no-ins-mobile-1 > h3 {
+	border-bottom:1px solid #000;
+}
+.no-ins-mobile-1 > h4 {
+	font-size:16px;
+	border-bottom:
+}
+
+.no-ins-mobile-2 > h5 {
+	margin-bottom:10px;
+}
+.no-ins-mobile-2 > h3 {
+	margin-bottom:5px;
+}
+.dollar-2 {
+	color:#444;
+}
+.no-ins-mobile-2 {
+	background:#C2D31E;
+	padding-bottom:10px;
+	border-radius:0px 0px 5px 5px;
+	margin-bottom:20px;
+}
+
+
+
 @media only screen and (max-width:1200px) {
 
 	div > div.price-box-content > h4 {
@@ -723,6 +863,21 @@ section {
 	}
 	#primary-menu ul li > a {
 		background:#fff;
+	}
+
+}
+
+@media only screen and (max-width:1223px) {
+	#primary-menu > ul > li > a > div, #primary-menu ul li > a {
+		font-weight:300;
+		font-family: Roboto Condensed;
+		font-size:13px;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	#logo {
+		width:20%;
+		margin-right:0;
 	}
 
 }
@@ -768,6 +923,7 @@ section {
 		width:100%;
 		margin:0 auto;
 		border-radius:0px 0px 8px 8px;
+		margin-bottom:20px;
 	}
 	#price-28 {
 		font-size:30px;
@@ -778,7 +934,7 @@ section {
 		left:-80px;
 	}
 	#section-services {
-		height:500px;
+
 	}
 	.section-six-container {
 		height:320px;
@@ -789,9 +945,11 @@ section {
 		text-align:right;
 		width:50%;
 	}
-	#google-map {
+	#google-map-img {
 		margin:0 auto;
 		margin-top:20px;
+		width:76%;
+		height:76%;
 	}
 	#section-pricing > div > .row > .col-md-4.center.noleftpadding {
 		padding-right:0;
@@ -833,6 +991,15 @@ section {
 @media only screen and (max-width:768px) {
 	#slider {
 		display:none;
+	}
+	.mobile-appear {
+		display:block;
+	}
+	.disappear-mobile {
+		display:none;
+	}
+	#section-services {
+		height:auto !important;
 	}
 	#section-location > div > div.row > div.col-md-4.center.noleftpadding {
 		padding-right:0;
