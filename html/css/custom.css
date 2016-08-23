@@ -277,7 +277,6 @@ q:after {
 
 .title-purple {
 	/* LIMITED TIME SUMMER: */
-	font-size: 38px;
 	color: #7270BC;
 	font-weight:400;
 	margin-bottom:0px;
@@ -491,10 +490,10 @@ max-height: 0px;
   list-style: none;
 }
 .title-white {
-	font-size: 48px;
 	color: #FFFFFF;
 	font-weight:400;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
+	font-size:55px;
 }
 .section-six-span {
 	/* Join our Dimensions: */
@@ -644,7 +643,7 @@ div.box-right > div.box-right-top {
 
 #section-smile-gallery > div > div > h2 {
 	color:#2A2D61;
-	font-size:48px;
+
 	margin-bottom:0px;
 }
 #section-smile-gallery > div > div > h3 {
