@@ -184,15 +184,7 @@ q:after {
 	margin-bottom:-5px;
 	letter-spacing:.5px;
 }
-.a-exception {
-	font-size:16px;
-	color:#FFF;
-}
 
-.a-exception:hover {
-	color:#2e8ece;
-	font-size:16px;
-}
 .section-1-row {
 	text-align:center;
 	width:50%;
@@ -705,6 +697,21 @@ section {
   margin: 0 0 20px 0;
   padding: 0 0 0 30px;
   display: none;
+}
+
+.a-exception {
+	font-size:16px !important;
+	color:#FFF !important;
+}
+.bf-spn {
+	color:#FFF !important;
+	font-size:16px !important;
+}
+
+.a-exception:hover {
+	color:#2e8ece !important;
+	font-size:16px !important;
+	text-decoration:underline;
 }
 
 @media only screen and (max-width:1200px) {
