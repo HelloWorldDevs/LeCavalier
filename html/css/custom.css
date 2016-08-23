@@ -799,10 +799,11 @@ section {
 }
 
 .a-exception:hover {
-	color:#2e8ece !important;
 	font-size:16px !important;
-	text-decoration:underline;
+	text-decoration:underline !important;
 }
+
+
 
 #nav-bar-mobile {
 	padding-right:0px !important;
@@ -1064,6 +1065,9 @@ section {
 	.float-right-non-mobile {
 		padding-left:33%;
 		float:none;
+	}
+	#primary-menu > ul > li:hover > a > div{
+		color:#444 !important;
 	}
 }
 @media only screen and (max-width:320px) {
