@@ -3,28 +3,33 @@
     this.rowLength = 3;
     this.rowNum = 1;
     that = this;
-    $('.fslider.customjs').flexslider({
-      selector: ".slider-wrap > .slide",
-      animation: 'slide',
-      easing: 'swing',
-      direction: 'horizontal',
-      reverse: false,
-      slideshow: 'false',
-      slideshowSpeed: Number(5000),
-      animationSpeed: Number(600),
-      pauseOnHover: true,
-      video: false,
-      controlNav: false,
-      directionNav: false,
-      smoothHeight: false,
-      useCSS: true,
-      touch: true,
-      start: function (slider) {
-        SEMICOLON.widget.animations();
-        SEMICOLON.initialize.verticalMiddle();
-        slider.removeClass('preloader2');
-      }
+    // $('.fslider.customjs').flexslider({
+    //   selector: ".slider-wrap > .slide",
+    //   animation: 'slide',
+    //   easing: 'swing',
+    //   direction: 'horizontal',
+    //   reverse: false,
+    //   slideshow: 'false',
+    //   slideshowSpeed: Number(5000),
+    //   animationSpeed: Number(600),
+    //   pauseOnHover: true,
+    //   video: false,
+    //   controlNav: false,
+    //   directionNav: false,
+    //   smoothHeight: false,
+    //   useCSS: true,
+    //   touch: true,
+    //   start: function (slider) {
+    //     SEMICOLON.widget.animations();
+    //     SEMICOLON.initialize.verticalMiddle();
+    //     slider.removeClass('preloader2');
+    //   }
+    // });
+    var mySwiper = new Swiper('.swiper-container', {
+      speed: 400,
+      autoplay: 8000
     });
+
     $('.ui-accordion-header').click(function () {
      $(this).parent().find('.ui-accordion-content').addClass('folded');
      $(this).next().removeClass('folded');
