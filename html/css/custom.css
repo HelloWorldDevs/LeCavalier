@@ -12,11 +12,12 @@
 }
 
 .roll-over:hover {
-	background-color: #5552A5;
+	background-color: #7a8b1d;
 	color: #FFFFFF;
 	opacity:.9;
 }
 .purple-roll-over:hover {
+	color: #FFFFFF;
 	background:#5552A5;
 }
 
@@ -118,6 +119,9 @@ body.stretched #header.full-header .container {
 }
 .text-white {
 	color:#FFF;
+}
+a.text-white:hover {
+	color: #FFF;
 }
 
 .slider-caption p {
@@ -845,6 +849,10 @@ section {
 	border-radius:0px 0px 5px 5px;
 	margin-bottom:20px;
 }
+#section-location .standard-logo img {
+	max-width: 170px;
+	margin-bottom: 5px;
+}
 
 
 
@@ -916,11 +924,8 @@ section {
 	#header.full-header, .stretched #header.full-header .container {
 		height:75px;
 	}
-	#logo img {
-		width:22% !important;
-	}
 	#primary-menu-trigger, #logo img {
-		margin-top:-12px;
+		/*margin-top:-12px;*/
 	}
 	.section-six-container {
 		flex-direction:column;
@@ -981,8 +986,8 @@ section {
 		font-size:35px;
 	}
 	#logo img {
-		width:18% !important;
 		float:right;
+		max-height: 70px;
 	}
 	#col-left > .btn-wrap {
 		float:none;
@@ -1030,10 +1035,10 @@ section {
 	#dollar-28, #price-28 {
 		left:-43px;
 	}
-	#logo img {
-		width:22% !important;
-		float:right;
-	}
+	/*#logo img {*/
+		/*width:22% !important;*/
+		/*float:right;*/
+	/*}*/
 	#mobile-background {
 		display:block;
 	}
