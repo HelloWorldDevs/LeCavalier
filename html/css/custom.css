@@ -425,6 +425,16 @@ q:after {
   font-size: 100%;
   list-style: none;
 }
+.font-14 {
+	font-size:12px;
+}
+.height-96 {
+	height:96px;
+}
+.social-wrap {
+	height:33px;
+	float:right;
+}
 
  .ui-accordion .ui-accordion-header {
   display: block;
