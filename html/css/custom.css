@@ -731,6 +731,13 @@ section {
 .mobile-appear {
 	display:none;
 }
+#primary-menu ul > li:hover {
+	text-decoration:underline;
+	color:#444;
+}
+#primary-menu > ul > li:hover > a {
+	color:currentColor;
+}
 .no-ins-mobile-1 {
 	background:#FFF;
 	font-size:16px;
