@@ -16,6 +16,9 @@
 	color: #FFFFFF;
 	opacity:.9;
 }
+.purple-roll-over:hover {
+	background:#5552A5;
+}
 
 
 body {
@@ -412,7 +415,7 @@ q:after {
 	background:url('images/reviews-section.jpg')
 }
 .title-white {
-	font-size: 38px;
+	font-size: 48px;
 	color: #FFFFFF;
 	font-weight:400;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
