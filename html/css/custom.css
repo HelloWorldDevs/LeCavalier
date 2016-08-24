@@ -299,6 +299,12 @@ q:after {
 	color: #7C7C7C;
 }
 .section-four-row {
+	display: flex;
+}
+@media screen and (max-width: 768px) {
+	.section-four-row {
+		display: inherit;
+	}
 }
 .split-row-line {
 	/* Line: */
@@ -323,7 +329,7 @@ q:after {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	border-radius: 8px;
 	border: 1px solid #7C7C7C;
-	height:340px;
+	/*height:340px;*/
 	text-align:left;
 }
 .img-size-80 {
