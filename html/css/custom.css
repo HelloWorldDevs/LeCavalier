@@ -102,6 +102,13 @@ h5 {
 	background:#555285;
 	color:#FFF;
 }
+.red {
+	color:#d9534f;
+}
+.background-green {
+	background:#C2D31E;
+	border:none;
+}
 .roboto-condensed {
 	font-family: Roboto Condensed;
 }
@@ -1010,6 +1017,12 @@ section {
 		text-align:center;
 		float:none !important;
 	}
+	.mobile-appear {
+		display:block;
+	}
+	.disappear-mobile {
+		display:none;
+	}
 
 }
 
@@ -1023,12 +1036,6 @@ section {
 		margin:0 auto;
 		margin-top:15px;
 		margin-bottom:15px;
-	}
-	.mobile-appear {
-		display:block;
-	}
-	.disappear-mobile {
-		display:none;
 	}
 	#section-services {
 		height:auto !important;
