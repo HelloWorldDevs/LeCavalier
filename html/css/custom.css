@@ -98,6 +98,10 @@ h5 {
 	font-family: Gentium Book Basic;
 	font-weight:400;
 }
+.btn-learn-more:hover {
+	background:#555285;
+	color:#FFF;
+}
 .roboto-condensed {
 	font-family: Roboto Condensed;
 }
