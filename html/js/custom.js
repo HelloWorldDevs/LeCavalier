@@ -58,15 +58,9 @@
 
   var HWD = new HelloWorldDevs();
 
-
-
-
   HWD.fixRows();
   HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
   HWD.mailForm('#mail-form');
-  $(window).on("resize", function () {
-    HWD.fixRows();
-  });
 
   $('.tour-slider').slick({
     dots: true,
@@ -111,8 +105,13 @@
     HWD.fixRows();
   });
   var mySwiper = new Swiper('.swiper-container', {
-    speed: 400,
-    autoplay: 8000
+      speed: 400,
+      autoplay: 8000
+    });
+
+
+  $(window).on("resize", function () {
+    HWD.fixRows();
   });
 
 
