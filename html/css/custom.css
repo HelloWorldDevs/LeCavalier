@@ -1011,6 +1011,12 @@ section {
 		text-align:center;
 		float:none !important;
 	}
+	.mobile-appear {
+		display:block;
+	}
+	.disappear-mobile {
+		display:none;
+	}
 
 }
 
@@ -1024,12 +1030,6 @@ section {
 		margin:0 auto;
 		margin-top:15px;
 		margin-bottom:15px;
-	}
-	.mobile-appear {
-		display:block;
-	}
-	.disappear-mobile {
-		display:none;
 	}
 	#section-services {
 		height:auto !important;
