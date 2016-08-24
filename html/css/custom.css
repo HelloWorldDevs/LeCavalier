@@ -90,7 +90,7 @@ h5 {
 .btn-black:hover > .check-hover {
 	color:#333333;
 }
-.h2-font-less {
+.h3-font-less {
 	font-size:35px;
 }
 
@@ -277,7 +277,6 @@ q:after {
 
 .title-purple {
 	/* LIMITED TIME SUMMER: */
-	font-size: 38px;
 	color: #7270BC;
 	font-weight:400;
 	margin-bottom:0px;
@@ -497,10 +496,10 @@ max-height: 0px;
   list-style: none;
 }
 .title-white {
-	font-size: 48px;
 	color: #FFFFFF;
 	font-weight:400;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
+	font-size:55px;
 }
 .section-six-span {
 	/* Join our Dimensions: */
@@ -650,7 +649,7 @@ div.box-right > div.box-right-top {
 
 #section-smile-gallery > div > div > h2 {
 	color:#2A2D61;
-	font-size:48px;
+
 	margin-bottom:0px;
 }
 #section-smile-gallery > div > div > h3 {
@@ -805,10 +804,11 @@ section {
 }
 
 .a-exception:hover {
-	color:#2e8ece !important;
 	font-size:16px !important;
-	text-decoration:underline;
+	text-decoration:underline !important;
 }
+
+
 
 #nav-bar-mobile {
 	padding-right:0px !important;
@@ -1070,6 +1070,9 @@ section {
 	.float-right-non-mobile {
 		padding-left:33%;
 		float:none;
+	}
+	#primary-menu > ul > li:hover > a > div{
+		color:#444 !important;
 	}
 }
 @media only screen and (max-width:320px) {
