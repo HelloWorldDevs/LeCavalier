@@ -102,6 +102,13 @@ h5 {
 	background:#555285;
 	color:#FFF;
 }
+.red {
+	color:#d9534f;
+}
+.background-green {
+	background:#C2D31E;
+	border:none;
+}
 .roboto-condensed {
 	font-family: Roboto Condensed;
 }
