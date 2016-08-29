@@ -614,8 +614,13 @@ div.box-right > div.box-right-top {
 	color: #FFFFFF;
 	text-align:center;
 	margin:0 auto;
-	width:100%;
+	/*width:100%;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top:10px;
+	display: block;
 }
 .btn-black {
 	background: #3E3E3E;
@@ -939,7 +944,7 @@ img.img-responsive.center {
 	img.img-responsive.center {
 		display: block;
 		float: none;
-		margin: 5px auto;
+		margin: 15px auto;
 	}
 	.height-96 {
 		height:auto;

@@ -20,8 +20,8 @@
     }
   };
 
-  HelloWorldDevs.prototype.noOrphans = function (selectors) {
-    $(selectors).each(function () {
+  HelloWorldDevs.prototype.noOrphans = function (selectors, exceptions) {
+    $(selectors).not(exceptions).each(function () {
       $(this).html($(this).html().replace(/\s([^\s<]{0,10})\s*$/, '&nbsp;$1'));
     });
   };
@@ -59,43 +59,9 @@
   var HWD = new HelloWorldDevs();
 
   HWD.fixRows();
-  HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p');
+  HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p', '.price-box-h3-mid');
   HWD.mailForm('#mail-form');
 
-  $('.tour-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    autoplaySpeed: 8000,
-  });
-  $('.team-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: true,
-    autoplaySpeed: 8000,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
   $('.ui-accordion-header').click(function () {
     $(this).parent().find('.ui-accordion-content').addClass('folded');
     $(this).next().removeClass('folded');
