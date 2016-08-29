@@ -1109,6 +1109,8 @@ img.img-responsive.center {
 	.price-mobile {
 		margin-bottom:15px;
 	}
+}
+@media only screen and (max-width:560px) {
 	.carousel-inner > .item > img {
 		width:48%;
 	}
