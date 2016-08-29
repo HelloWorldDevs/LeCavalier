@@ -35,6 +35,11 @@ h1 {
 h2 {
 	font-size:55px;
 }
+@media (max-width: 767px) {
+	h2 {
+		font-size: 40px;
+	}
+}
 h3 {
 	font-size:39px;
 }
@@ -517,6 +522,11 @@ q:after {
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.92);
 	font-size:55px;
 }
+@media (max-width: 600px) {
+	.title-white {
+		font-size:35px;
+	}
+}
 .section-six-span {
 	/* Join our Dimensions: */
 	font-size: 28px;
@@ -873,7 +883,14 @@ section {
 }
 #section-location .standard-logo img {
 	max-width: 170px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+img.img-responsive.center {
+	display: inline-block;
+	float: left;
+	padding-top: 6px;
+	padding-right: 15px;
 }
 
 
@@ -917,7 +934,12 @@ section {
 	}
 	.float-right-non-mobile {
 		float:none;
-		padding-left:42%;
+		/*padding-left:42%;*/
+	}
+	img.img-responsive.center {
+		display: block;
+		float: none;
+		margin: 5px auto;
 	}
 	.height-96 {
 		height:auto;
@@ -1027,6 +1049,11 @@ section {
 	}
 	.disappear-mobile {
 		display:none;
+	}
+
+	.social-icon {
+		display: inline-block;
+		float: none;
 	}
 
 }
