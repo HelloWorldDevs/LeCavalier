@@ -322,7 +322,7 @@ q:after {
 }
 @media screen and (max-width: 768px) {
 	.section-four-row {
-		display: inherit;
+		/*display: inherit;*/
 	}
 }
 .split-row-line {
@@ -910,7 +910,7 @@ img.img-responsive.center {
 		margin-bottom:10px;
 	}
 	#section-work > div.container.clearfix.center {
-		width:850px;
+		/*width:850px;*/
 	}
 	#primary-menu ul li > a{
 		padding-left:10px;
