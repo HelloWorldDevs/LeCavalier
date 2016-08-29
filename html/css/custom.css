@@ -320,9 +320,9 @@ q:after {
 .section-four-row {
 	display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.section-four-row {
-		/*display: inherit;*/
+		display: inherit;
 	}
 }
 .split-row-line {
