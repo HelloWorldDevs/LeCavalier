@@ -24,13 +24,13 @@
 
 body {
 	font-size: 16px;
-	font-family: Roboto Condensed, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight:300;
 	color:#333;
 }
 
 h1 {
-	font-size:80px;
+	font-size:70px;
 }
 h2 {
 	font-size:55px;
@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6  {
-	font-family: Roboto Condensed;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight:300;
 }
 h4 {
@@ -55,6 +55,9 @@ h5 {
 }
 .font-35 {
 	font-size:35px;
+}
+.font-bold {
+	font-weight: 700 !important;
 }
 #slider > div > div > div > div.row.center {
 	position:relative;
@@ -95,7 +98,7 @@ h5 {
 }
 
 .gentium-book {
-	font-family: Gentium Book Basic;
+	font-family: 'Gentium Book Basic', serif;
 	font-weight:400;
 }
 .btn-learn-more:hover {
@@ -110,7 +113,7 @@ h5 {
 	border:none;
 }
 .roboto-condensed {
-	font-family: Roboto Condensed;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .retina-logo, .standard-logo {
 	width:90%;
@@ -188,7 +191,7 @@ q:after {
 
 .section-8-purple {
 	color:#7270BC;
-	font-family:Roboto Condensed;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight:400;
 }
 #r-symbol {
@@ -260,6 +263,7 @@ q:after {
 	border-radius: 8px;
 	height:40px;
 	color:#000;
+	padding: 6px 10%;
 }
 .text-left .green {
 	color: #C2D31E;
@@ -305,7 +309,7 @@ q:after {
 }
 .section-four-span {
 	/* Offer Ends September: */
-	font-size: 18.5px;
+	font-size: 26px;
 	color: #7C7C7C;
 }
 .section-four-row {
@@ -329,7 +333,7 @@ q:after {
 	margin-bottom:20px;
 }
 .contact-address {
-	font-size:12px;
+	font-size:21px;
 	color:#7C7C7C;
 }
 
@@ -371,7 +375,7 @@ q:after {
 }
 
 .price-box-content p {
-	font-family:Roboto Condesed;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #2F2E30;
 	margin-bottom:15px;
 	font-size:15px;
@@ -390,7 +394,7 @@ q:after {
 }
 #primary-menu > ul > li > a > div, #primary-menu ul li > a {
 	font-weight:300;
-	font-family: Roboto Condensed;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size:16px;
 }
 
@@ -404,10 +408,10 @@ q:after {
 
 
 .price-box-h3, .price-box-h3-mid {
-	/* New Patient Dental E: */
 	font-size: 28px;
 	font-weight:400;
-	line-height: 38px;
+	line-height: 30px;
+
 	margin-bottom:5px;
 }
 .price-box-h3-mid, .price-box-h4-mid {
@@ -415,15 +419,16 @@ q:after {
 }
 
 .price-box-price {
-	font-size: 50px;
-	line-height: 38px;
-	text-align:right;
+	font-size: 80px;
+	line-height: 58px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: right;
 }
 
 .dollar {
 	font-size:23px;
 	position:relative;
-	top:-17px;
+	top:-30px;
 	margin-right:2px;
 	font-weight:500;
 }
@@ -487,7 +492,7 @@ q:after {
   transition: .5s max-height ease;
 }
 .folded {
-max-height: 0px;
+	max-height: 0px;
 }
  .ui-accordion .ui-accordion-content {
   margin: .5em 0;
@@ -514,7 +519,7 @@ max-height: 0px;
 }
 .section-six-span {
 	/* Join our Dimensions: */
-	font-size: 18px;
+	font-size: 28px;
 	font-weight:300;
 	color: #FFFFFF;
 }
@@ -564,7 +569,7 @@ max-height: 0px;
 .section-six-container {
 	display:flex;
 	height:250px;
-	width:76%;
+	/*width:76%;*/
 	margin:0 auto;
 	border-radius:8px;
 }
@@ -706,7 +711,7 @@ div.box-right > div.box-right-top {
 	float:right;
 }
 #contact-phone-big {
-	font-size:22px;
+	font-size:36px;
 	color:#2A2D61;
 	font-weight:500;
 }
@@ -717,7 +722,7 @@ div.box-right > div.box-right-top {
 }
 #contact-phone-small {
 	color:#2A2D61;
-	font-size:15px;
+	font-size:26px;
 }
 
 .margin-neg-5 {
@@ -894,7 +899,7 @@ section {
 @media only screen and (max-width:1223px) {
 	#primary-menu > ul > li > a > div, #primary-menu ul li > a {
 		font-weight:300;
-		font-family: Roboto Condensed;
+		font-family: 'Roboto Condensed', sans-serif;
 		font-size:13px;
 		padding-left:5px;
 		padding-right:5px;
@@ -1117,4 +1122,12 @@ section {
 	#footer, #copyrights {
 		height: auto;
 	}
+}
+
+
+/*Canvas Overrides*/
+
+.slider-caption h2 {
+	text-transform: none;
+	font-size: 60px;
 }
