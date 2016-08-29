@@ -215,7 +215,7 @@ q:after {
 
 .section-1-row {
 	text-align:center;
-	width:50%;
+	/*width:50%;*/
 	margin:0 auto;
 }
 .section-1-column {
@@ -898,6 +898,10 @@ img.img-responsive.center {
 	padding-right: 15px;
 }
 
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+	height: 50px;
+	padding-top: 5px;
+}
 
 
 @media only screen and (max-width:1200px) {
@@ -1118,7 +1122,7 @@ img.img-responsive.center {
 
 @media only screen and (max-width:400px) {
 	.float-right-non-mobile {
-		padding-left:33%;
+		/*padding-left:33%;*/
 		float:none;
 	}
 	#primary-menu > ul > li:hover > a > div{
@@ -1163,5 +1167,5 @@ img.img-responsive.center {
 
 .slider-caption h2 {
 	text-transform: none;
-	font-size: 60px;
+	font-size: 55px;
 }
