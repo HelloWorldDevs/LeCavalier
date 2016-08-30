@@ -174,8 +174,6 @@ q:after {
 .dark .slider-caption h2 {
 }
 .top-15 {
-	position:relative;
-	top:-15px;
 	font-size:20px;
 }
 .margin-neg-15 {
@@ -753,6 +751,7 @@ div.box-right > div.box-right-top {
 .float-left {
 	float:left;
 }
+
 .nopaddingright {
 	padding-right:0;
 }
@@ -940,12 +939,17 @@ img.img-responsive.center {
 }
 
 @media only screen and (max-width:991px) {
+	.float-left {
+		float:none;
+	}
+
 	.section-1-column {
 		text-align:center;
 	}
 	.float-right-non-mobile {
 		float:none;
 		/*padding-left:42%;*/
+		text-align: center;
 	}
 	img.img-responsive.center {
 		display: block;
@@ -1043,6 +1047,7 @@ img.img-responsive.center {
 	#logo img {
 		float:right;
 		max-height: 70px;
+		min-width: 90px;
 	}
 	#col-left > .btn-wrap {
 		float:none;
@@ -1071,6 +1076,15 @@ img.img-responsive.center {
 
 
 @media only screen and (max-width:768px) {
+	.retina-logo {
+		margin-left: 20px;
+	}
+	h3 {
+		font-size: 35px;
+	}
+	.center-mobile {
+		text-align: center;
+	}
 	#slider {
 		display:none;
 	}
@@ -1124,8 +1138,8 @@ img.img-responsive.center {
 
 @media only screen and (max-width:400px) {
 	.float-right-non-mobile {
-		/*padding-left:33%;*/
 		float:none;
+		text-align: center;
 	}
 	#primary-menu > ul > li:hover > a > div{
 		color:#444 !important;
