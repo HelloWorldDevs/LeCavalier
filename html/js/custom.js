@@ -26,13 +26,13 @@
     });
   };
 
-  HelloWorldDevs.prototype.mailForm = function (form) {
+  HelloWorldDevs.prototype.mailForm = function (form, uid)) {
     var $form = $(form);
     $form.before('<div class="form-error"></div>');
     $form.submit(function(e) {
       e.preventDefault();
       var formData = $form.serialize();
-      var formAction = $form.attr('action');
+      var formAction = 'http://web-api.tysonsteele.com/v1/webprops/'+uid+'/schedule';
       $.ajax({
         type: 'POST',
         url: formAction,
@@ -60,7 +60,7 @@
 
   HWD.fixRows();
   HWD.noOrphans('h1,h2,h3,h4,h5,h6,li,p', '.price-box-h3-mid');
-  HWD.mailForm('#mail-form');
+  HWD.mailForm('#mail-form', '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Uid Goes Here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
 
   $('.ui-accordion-header').click(function () {
     $(this).parent().find('.ui-accordion-content').addClass('folded');
@@ -79,6 +79,15 @@
   $(window).on("resize", function () {
     HWD.fixRows();
   });
+
+  // specialsTemplate.init(
+  //     '7fb35345-752d-4792-9480-cd3db6674a62',
+  //     '#special_template',
+  //     {
+  //       period_ends: '#period_ends',
+  //       period_label: '#period_label'
+  //     }
+  // );
 
 
 })(jQuery);
