@@ -26,7 +26,7 @@
     });
   };
 
-  HelloWorldDevs.prototype.mailForm = function (form, uid)) {
+  HelloWorldDevs.prototype.mailForm = function (form, uid) {
     var $form = $(form);
     $form.before('<div class="form-error"></div>');
     $form.submit(function(e) {

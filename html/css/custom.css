@@ -82,10 +82,10 @@ h5 {
 	padding-right:40px;
 	height:38px;
 }
-#col-left {
+.col-left {
 	border-left:1px solid #FFF;
 }
-#col-right {
+.col-right {
 	margin-top:-7px;
 }
 .dark h4 {
@@ -270,9 +270,9 @@ q:after {
 .btn-green {
 	background: #C2D31E;
 	border-radius: 8px;
-	height:40px;
-	color:#000;
-	padding: 6px 10%;
+	color: #000;
+	padding: 10px 10%;
+	font-size: 20px;
 }
 .text-left .green {
 	color: #C2D31E;
@@ -559,7 +559,7 @@ q:after {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	height:20px;
 }
-#section-one-phone {
+span.section-one-phone>span {
 	font-weight:400;
 	color:#FFF;
 }
@@ -776,7 +776,6 @@ div.box-right > div.box-right-top {
 #copyrights {
 	margin:0 auto;
 	color:#FFF;
-	text-align:center;
 }
 .social-icon {
 	color:#FFF;
